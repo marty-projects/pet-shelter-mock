@@ -3,18 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from "./components/NavbarComp";
 import CardComp from './components/CardComp';
 
+
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
+      <NavbarComp /> 
+      <br/><br/>
       <CardComp />
+      <br/>
       <CardComp />
+      <br/>
       <CardComp />
-      <CardComp />
-      <CardComp />
-      <CardComp />
-    
-    </div>
+      </div>
+   
   );
 }
 
