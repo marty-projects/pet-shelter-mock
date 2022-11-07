@@ -1,0 +1,51 @@
+{
+    "pet": {
+            
+            "type": "Cat",
+            "breeds": {
+                "primary": "American Shorthair",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Tortoiseshell"
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "name": "Nebula",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photos": [
+                {
+                    "small": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081&width=100",
+                    "medium": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081&width=300",
+                    "large": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081&width=600",
+                    "full": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081"
+                }
+            ],
+            "status": "adoptable",
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": true,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": false,
+                "dogs": true,
+                "cats": true
+            },
+            "tags": [
+                "Cute",
+                "Intelligent",
+                "Playful",
+                "Happy",
+                "Affectionate"
+            ],
+
+            "published_at": "2018-09-04T14:49:09+0000"
+
+        }
+}
