@@ -10,9 +10,11 @@ const NavbarComp = () => {
       return (
         <Router>
         <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" align="center">
         <Container fluid>
+          <div padding="5">
           <Navbar.Brand href="#">Adopt a Pet</Navbar.Brand>
+          </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
