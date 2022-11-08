@@ -1,9 +1,20 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+    "pet": {
+            "id": 12,
+            "type": "Cat",
+            "breed": "Russian Blue",
+            "age": "Young",
+            "sex": "Female",
+            "size": "Medium",
+            "name": "Nebula",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photos": [
+                {
+                    "full": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081"
+                }
+            ],
+            "status": "adoptable",
+            
+            "published_at": "2018-09-04T14:49:09+0000"
+
+        } }

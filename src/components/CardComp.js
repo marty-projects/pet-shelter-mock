@@ -1,10 +1,20 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 const CardComp = () => {
+
+const [pets, setPets] = useState(null);
+
+useEffect(() =>{
+    fetch('http://localhost:3000/pet')
+    .then(res => {
+       return res.json()
+    })
+}, []);
   return (
     <Row xs={1} sm={1} md={3} className="g-4" align="center">
     {Array.from({ length: 3 }).map((_, idx) => (
