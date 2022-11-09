@@ -1,20 +1,105 @@
 {
-    "pet": {
-            "id": 12,
+    "pets": { 
+        "data":  [{
+            "id": 1,
             "type": "Cat",
             "breed": "Russian Blue",
+            "age": "Young",
+            "sex": "Female",
+            "size": "Small",
+            "name": "Kasia",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photo": 
+                {
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
+                }
+            
+            
+        }, 
+        {
+            "id": 2,
+            "type": "Cat",
+            "breed": "Mixed",
+            "age": "Young",
+            "sex": "Male",
+            "size": "Medium",
+            "name": "Serek",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photo": 
+                {
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
+                }
+            
+            
+        }, 
+
+        {
+            "id": 3,
+            "type": "Cat",
+            "breed": "British Shorthair",
+            "age": "Young",
+            "sex": "Female",
+            "size": "Medium",
+            "name": "Bomba",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photo": 
+                {
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
+                }
+            
+            
+        }, 
+        {
+            "id": 4,
+            "type": "Dog",
+            "breed": "Boxer/Mixed",
+            "age": "Young",
+            "sex": "Male",
+            "size": "Medium",
+            "name": "Spajk",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photo": 
+                {
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
+                }
+            
+            
+        }, 
+
+        {
+            "id": 5,
+            "type": "Dog",
+            "breed": "Labrador",
             "age": "Young",
             "sex": "Female",
             "size": "Medium",
             "name": "Nebula",
             "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
-            "photos": [
+            "photo": 
                 {
-                    "full": "https://photos.petfinder.com/photos/pets/124/1/?bust=1546042081"
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
                 }
-            ],
-            "status": "adoptable",
             
-            "published_at": "2018-09-04T14:49:09+0000"
+            
+        }, 
 
-        } }
+        {
+            "id": 6,
+            "type": "Dog",
+            "breed": "Border Collie",
+            "age": "Young",
+            "sex": "Male",
+            "size": "Medium",
+            "name": "Nebula",
+            "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
+            "photo": 
+                {
+                    "full": "https://photo.petfinder.com/photo/pets/124/1/?bust=1546042081"
+                }
+            
+            
+        }
+        
+    ]
+    }}
+    

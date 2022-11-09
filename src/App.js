@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from "./components/NavbarComp";
-import CardComp from './components/CardComp';
+import PetList from './components/PetList';
 
 
 function App() {
@@ -9,11 +9,8 @@ function App() {
     <div className="App">
       <NavbarComp /> 
       <br/><br/>
-      <CardComp />
+      <PetList />
       <br/>
-      <CardComp />
-      <br/>
-      <CardComp />
       </div>
    
   );
