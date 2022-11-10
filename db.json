@@ -1,8 +1,8 @@
 {
-    "pets": { 
-        "data":  [{
+    "pets": [
+        {
             "id": 1,
-            "type": "Cat",
+            "type": "cat",
             "breed": "Russian Blue",
             "age": "Young",
             "sex": "Female",
@@ -18,7 +18,7 @@
         }, 
         {
             "id": 2,
-            "type": "Cat",
+            "type": "cat",
             "breed": "Mixed",
             "age": "Young",
             "sex": "Male",
@@ -35,7 +35,7 @@
 
         {
             "id": 3,
-            "type": "Cat",
+            "type": "cat",
             "breed": "British Shorthair",
             "age": "Young",
             "sex": "Female",
@@ -51,7 +51,7 @@
         }, 
         {
             "id": 4,
-            "type": "Dog",
+            "type": "dog",
             "breed": "Boxer/Mixed",
             "age": "Young",
             "sex": "Male",
@@ -68,12 +68,12 @@
 
         {
             "id": 5,
-            "type": "Dog",
+            "type": "dog",
             "breed": "Labrador",
             "age": "Young",
             "sex": "Female",
             "size": "Medium",
-            "name": "Nebula",
+            "name": "Biedronka",
             "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
             "photo": 
                 {
@@ -85,12 +85,12 @@
 
         {
             "id": 6,
-            "type": "Dog",
+            "type": "dog",
             "breed": "Border Collie",
             "age": "Young",
             "sex": "Male",
             "size": "Medium",
-            "name": "Nebula",
+            "name": "Pascal",
             "description": "Nebula is a shorthaired, shy cat. She is very affectionate once she warms up to you.",
             "photo": 
                 {
@@ -101,5 +101,5 @@
         }
         
     ]
-    }}
+}
     

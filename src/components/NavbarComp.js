@@ -1,14 +1,14 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 
 const NavbarComp = () => {
       return (
-        <Router>
+        
         <div>
         <Navbar bg="light" expand="lg" align="center">
         <Container fluid>
@@ -23,16 +23,16 @@ const NavbarComp = () => {
               navbarScroll
             >
               <NavDropdown title="Adopt" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#dogs">
+                <NavDropdown.Item>
+                  <Link to="/pets?type=dog">
                   Dogs
+                  </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#cats">
+                <NavDropdown.Item>
+                <Link to="/pets?type=cat">
                   Cats
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="other">
-                  Other pets
+                  </Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
@@ -42,7 +42,7 @@ const NavbarComp = () => {
       </Navbar>
 
       </div>
-      </Router>
+     
       );
     }
     

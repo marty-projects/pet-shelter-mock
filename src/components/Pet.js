@@ -2,7 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 function Pet({pet = {}}) {
   const {name, breed, sex, age, size} = pet;

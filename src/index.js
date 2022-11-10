@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
 import './index.css';
-import App from './App';
+import Root from "./routes/root";
 import reportWebVitals from './reportWebVitals';
+import PetList from './routes/pet-list';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root/>
+  },
+  {
+    path: "/pets",
+    element: <PetList />
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
